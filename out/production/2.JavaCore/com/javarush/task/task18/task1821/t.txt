@@ -1,0 +1,12 @@
+I would like to get columns from two spreadsheets(named After and Before) and subtract the values of one sheet from the
+other and store the results in a third sheet. However the sheet After could have new columns added, as shown in second
+image where the columns are sorted in alphabetical order by state name. Some pseudo code I wrote looks like:
+
+Get After's data as an object
+Get Before's data as an object
+For each column x in After, starting in column B
+    For each column y in Before
+        'check if columns have same header name'
+        if After.x1 = Before.y1 
+           subtract column values
+           end loop
