@@ -6,21 +6,6 @@ target/
 .idea
 .repository/
 *.iml
-*.iws
-*.jrtc
-*.java
 *.class
-*.info
-*.properties
-*.jar
+/out/
 
-#/1.JavaSyntax/
-#/2.JavaCore/
-#/3.JavaMultithreading/
-#/4.JavaCollections/
-#/5.OnlineInternship/
-#/out/
-#/JavaRushPlugin.properties
-#/Instruction.png
-#/out.log
-#/out.log.*
